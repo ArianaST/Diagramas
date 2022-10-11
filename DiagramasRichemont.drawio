@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T18:34:02.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="8YzfXcc06RinTqSRo9L9" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-11T18:39:20.928Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="BpRlh_pbQFjJq33gxrLN" version="20.4.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3407" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -425,7 +425,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="edvZfjGwOmcB3oPP8NVK" name="Página-2">
-    <mxGraphModel dx="3526" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2057" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -626,6 +626,30 @@
         </mxCell>
         <mxCell id="zQ2AtPj6FH_1qLWyEsxG-76" value="+ update_data()&#xa;+ save_payment_to_comision(payment, &#xa;comision): comision&#xa;+ get_comisiones_from_payments(start_Date:Date, &#xa;end_date:Date, ids_payment:List):payments&#xa;+ create_invoices_registers(start_date: Date, &#xa;end_date:Date):List&#xa;+ to_json_stamping():json " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zQ2AtPj6FH_1qLWyEsxG-73">
           <mxGeometry y="178" width="330" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2AtPj6FH_1qLWyEsxG-77" value="InteresesCumplo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="3200" y="380" width="330" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2AtPj6FH_1qLWyEsxG-78" value="- SERIE: &quot;IN&quot;&#xa;-  CLAVE: &quot;84101700&quot;&#xa;+ id_foundingpayment: Founding&#xa;+ id_investor: Investor&#xa;+ id_investment: Investment&#xa;+ id_payment: Payment&#xa;- tratamiento: string&#xa;- tipo: string&#xa;- tasa: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zQ2AtPj6FH_1qLWyEsxG-77">
+          <mxGeometry y="30" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2AtPj6FH_1qLWyEsxG-79" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zQ2AtPj6FH_1qLWyEsxG-77">
+          <mxGeometry y="170" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2AtPj6FH_1qLWyEsxG-80" value="+ update_data()&#xa;+ save_payment_to_interes(payment, &#xa;interesInvoice):InteresInvoice&#xa;+ get_intereses_from_payments(start_date: &#xa;Date, end_date: Date, ids_payments:List): &#xa;paymentsCumplo&#xa;+ create_invoices_registers(start_date: Date, &#xa;end_date:Date): List&#xa;+ to_json_stamping():json&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zQ2AtPj6FH_1qLWyEsxG-77">
+          <mxGeometry y="178" width="330" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2AtPj6FH_1qLWyEsxG-81" value="InteresesInversionEnajenacion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="50" width="380" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2AtPj6FH_1qLWyEsxG-82" value="- SERIE: &quot;EF&quot;&#xa;- SERIE_NC: &quot;EFNC&quot;&#xa;- CLAVE: &quot;84101702&quot;&#xa;+ id_foundingpayment: Founding&#xa;+ id_investor: Investor&#xa;+ id_investment: Investment&#xa;+ rfc_tercero&#xa;- monto_inversion: float&#xa;- deposito_garantia: float&#xa;- interes_resta: float&#xa;- diferencia: float&#xa;- porcentaje: float&#xa;- interes: float&#xa;- mora: float&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zQ2AtPj6FH_1qLWyEsxG-81">
+          <mxGeometry y="30" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2AtPj6FH_1qLWyEsxG-83" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zQ2AtPj6FH_1qLWyEsxG-81">
+          <mxGeometry y="240" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2AtPj6FH_1qLWyEsxG-84" value="+ update_data()&#xa;+  get_interes_from_investments(start_date: Date, end_date: Date, &#xa;ids_investments: List): List&#xa;+ create_invoices_registers(start_date: Date, end_date: Date): List&#xa;+ get_uuid_relacionado(invIntEna): string&#xa;+ get_uuid_from_pret(description): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zQ2AtPj6FH_1qLWyEsxG-81">
+          <mxGeometry y="248" width="380" height="142" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
