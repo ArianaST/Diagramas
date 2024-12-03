@@ -27,5 +27,4 @@ Este repositorio almacena una colección organizada de diagramas técnicos desar
    - Los archivos `.png` están disponibles en cada carpeta para una visualización rápida.
 
 3. **Clonar el repositorio:**
-   ```bash
-  [ git clone https://github.com/ArianaST/Diagramas.git]
+   ```bash  git clone https://github.com/ArianaST/Diagramas.git
