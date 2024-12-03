@@ -23,8 +23,6 @@ Este repositorio almacena una colección organizada de diagramas técnicos desar
 1. **Descargar archivos draw.io:**
    - Descarga cualquier archivo `.drawio` para editar o visualizarlo utilizando [Draw.io](https://app.diagrams.net/) o aplicaciones compatibles como [diagrams.net](https://www.diagrams.net/).
 
-2. **Visualización directa:**
-   - Los archivos `.png` están disponibles en cada carpeta para una visualización rápida.
-
-3. **Clonar el repositorio:**
-   ```bash  git clone https://github.com/ArianaST/Diagramas.git
+2. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/ArianaST/Diagramas.git
