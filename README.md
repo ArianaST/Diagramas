@@ -28,4 +28,4 @@ Este repositorio almacena una colección organizada de diagramas técnicos desar
 
 3. **Clonar el repositorio:**
    ```bash
-  [ git clone https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/ArianaST/Diagramas.git)
+  [ git clone https://github.com/ArianaST/Diagramas.git]
